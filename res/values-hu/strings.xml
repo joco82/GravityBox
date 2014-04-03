@@ -815,10 +815,97 @@
     <string name="screenrecord_notif_stop">Állj</string>
     <string name="screenrecord_notif_pointer">Érintés mutatása</string>
     <string name="screenrecord_toast_error">Nem lehet rögzíteni képernyőt</string>
-    <string name="screenrecord_toast_processing">Nem indítható új felvételmivel a korábbi felvétel még feldolgozás alatt</string>
+    <string name="screenrecord_toast_processing">Nem indítható új felvétel mivel a korábbi felvétel még feldolgozás alatt</string>
     <string name="screenrecord_toast_saved">Felvétel mentés %s</string>
     <string name="screenrecord_toast_save_error">Nem sikerült menteni felvételt a kimeneti fájlba</string>
     <string name="action_screenrecord">Képernyő felvétel</string>
     <string name="pref_powermenu_screenrecord_title">Képernyő felvétel power menüben</string>
+    
+     <!-- Backup and restore settings -->
+    <string name="pref_settings_backup_title">Beállítások mentése</string>
+    <string name="pref_settings_restore_title">Beállítások visszaállítása</string>
+    <string name="settings_backup_failed">A mentés nem sikerült</string>
+    <string name="settings_backup_no_prefs">A beállításokat tartalmazó fájl nem található</string>
+    <string name="settings_backup_success">A mentés sikerült</string>
+    <string name="settings_restore_no_backup">Nem található mentés a visszaállításhoz</string>
+    <string name="settings_restore_confirm">Az aktuális beállítások lecserélésre fognak kerülni. Biztos benne?</string>
+    <string name="settings_restore_failed">A visszaállítás nem sikerült</string>
+    <string name="settings_restore_success">A visszaállítás sikerült</string>
+    <string name="settings_restore_reboot">Kérem indítsa újra a készülékét.</string>
+    
+    string name="wsc_hash_creation_failed">Hiba történt az alkalmazás specifikus hash kód létrehozásakor</string>
+    <string name="wsc_parse_response_error">Hiba történt a web szolgáltatástól kapott adatok elemzése során</string>
+    <string name="wsc_hash_invalid">A web szolgáltatás megtagadta a kommunikációt hash eltérés miatt. Ez általában akkor történik meg, ha nem hivatalos verziót futtat, vagy a Gravitybox APK harmadik fél által módosításra került.</string>
+    <string name="wsc_please_wait">Kérem vájon&#8230;</string>
+    <string name="wsc_error">Hiba történt a Web szolgáltatással való kommunikáció során: %s</string>
+    <string name="wsc_task_cancelled">A web szolgáltatás működése törölve</string>
+
+    <!-- Transaction verification -->
+    <string name="wsc_trans_parse_response_error">Hiba történt a web szolgáltatástól kapott tranzakciós adat elemzése során</string>
+    <string name="wsc_trans_valid">A tranzakció-azonosító ellenőrzése sikerült. A pérmium funkciók a Gravitybox újraindítása után kerülnek feloldásra.</string>
+    <string name="wsc_trans_invalid">Nem található feljegyzés a megadott tranzakció-azonosítóhoz.</string>
+    <string name="wsc_trans_violation">A megadott tranzakció-azonosító túl sokszor került regisztrálásra. A probléma megoldásához lépjen kapcsolatba a GravityBox fejlesztőivel.</string>
+    <string name="wsc_trans_blocked">A megadott tranzakció-azonosító blokkolásra került. A probléma megoldásához lépjen kapcsolatba a GravityBox fejlesztőivel.</string>
+    <string name="pref_trans_verification_title">PayPal tranzakció-azonosító</string>
+    <string name="pref_trans_verification_summary">Amennyiben adományozott, beírhatja a PayPal adományozási tranzakció-azonosítóját a prémium funkciók feloldásához.</string>
+    <string name="wsc_trans_required_summary">Ehhez a funkcióhoz érvényes PayPal tranzakció-azonosító szükséges</string>
+
+    <!-- Pie: disable system info -->
+    <string name="pref_pie_sysinfo_disable_title">Rendszerinformációs gomb letiltása</string>
+    
+    !-- Icon picker -->
+    <string name="icon_picker_choose_icon_title">Ikon kiválasztása</string>
+    <string name="shortcuts_icon_picker_alarm">Ébresztés</string>
+    <string name="shortcuts_icon_picker_andy">Android robot</string>
+    <string name="shortcuts_icon_picker_battery">Akkumlátor</string>
+    <string name="shortcuts_icon_picker_browser">Böngésző</string>
+    <string name="shortcuts_icon_picker_calendar">Naptár</string>
+    <string name="shortcuts_icon_picker_camera">Kamera</string>
+    <string name="shortcuts_icon_picker_cloud">Felhő</string>
+    <string name="shortcuts_icon_picker_contact">Kapcsolat</string>
+    <string name="shortcuts_icon_picker_directdial">Közvetlen Hívás</string>
+    <string name="shortcuts_icon_picker_directmessage">Közvetlen Üzenet</string>
+    <string name="shortcuts_icon_picker_drive">Drive</string>
+    <string name="shortcuts_icon_picker_dropbox">Dropbox</string>
+    <string name="shortcuts_icon_picker_email">Email</string>
+    <string name="shortcuts_icon_picker_email2">Alternatív Email</string>
+    <string name="shortcuts_icon_picker_evernote">Evernote</string>
+    <string name="shortcuts_icon_picker_facebook">Facebook</string>
+    <string name="shortcuts_icon_picker_favorite">Kedvencek</string>
+    <string name="shortcuts_icon_picker_file_browser">Fájlkezelő</string>
+    <string name="shortcuts_icon_picker_file_browser2">Alternatív Fájlkezelő</string>
+    <string name="shortcuts_icon_picker_fitness">Fitness</string>
+    <string name="shortcuts_icon_picker_gallery">Galéria</string>
+    <string name="shortcuts_icon_picker_gears">Beállítások</string>
+    <string name="shortcuts_icon_picker_google_small">Google</string>
+    <string name="shortcuts_icon_picker_gplus">Google Plus</string>
+    <string name="shortcuts_icon_picker_gtalk">Hangouts</string>
+    <string name="shortcuts_icon_picker_help">Súgó</string>
+    <string name="shortcuts_icon_picker_joystick">Joystick</string>
+    <string name="shortcuts_icon_picker_key">Jelszavak/Fiókok</string>
+    <string name="shortcuts_icon_picker_laptop">Laptop</string>
+    <string name="shortcuts_icon_picker_notes">Jegyzetek</string>
+    <string name="shortcuts_icon_picker_luggage">Utazás</string>
+    <string name="shortcuts_icon_picker_maps">Térképek</string>
+    <string name="shortcuts_icon_picker_market">Áruház</string>
+    <string name="shortcuts_icon_picker_movie">Filmek</string>
+    <string name="shortcuts_icon_picker_music">Zene</string>
+    <string name="shortcuts_icon_picker_nav">Navigáció</string>
+    <string name="shortcuts_icon_picker_phone">Telefon</string>
+    <string name="shortcuts_icon_picker_package">Csomag</string>
+    <string name="shortcuts_icon_picker_pinterest">Pinterest</string>
+    <string name="shortcuts_icon_picker_play">Play</string>
+    <string name="shortcuts_icon_picker_pocket">Táska</string>
+    <string name="shortcuts_icon_picker_quicksettings">Gyorsbeállítások</string>
+    <string name="shortcuts_icon_picker_rss">RSS Feed</string>
+    <string name="shortcuts_icon_picker_sdcard">SD kártya</string>
+    <string name="shortcuts_icon_picker_search">Keresés</string>
+    <string name="shortcuts_icon_picker_sms">Üzenetkezelés</string>
+    <string name="shortcuts_icon_picker_tasks">Feladatok</string>
+    <string name="shortcuts_icon_picker_terminal">Terminál</string>
+    <string name="shortcuts_icon_picker_transit">Utazás</string>
+    <string name="shortcuts_icon_picker_tv">TV</string>
+    <string name="shortcuts_icon_picker_twitter">Twitter</string>
+    <string name="shortcuts_icon_picker_unlock">Feloldás</string>
 
 </resources>
